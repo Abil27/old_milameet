@@ -1,0 +1,554 @@
+@charset "utf-8";
+/* CSS Document */
+.bodi {
+font-family: Geneva, Arial, Helvetica, sans-serif;
+font-size:14px;
+ }
+ 
+ .bl a {
+	text-decoration:none;
+	color:#FFFFFF;
+	font-size:14px;
+	font-weight:bold;
+	text-align:left;
+ }
+ 
+ .bl a:hover {
+	text-decoration:underline;
+	color:#CC0000;
+	font-size:14px;
+	font-weight:bold;
+ } 
+ 
+   .bl4 a {
+	text-decoration:none;
+	color:#0033CC;
+	font-size:10px;
+	font-weight:bold;
+ }
+ 
+ .bl4 a:hover {
+	text-decoration:underline;
+	color:#FF0000;
+	font-size:10px;
+	font-weight:bold;
+ } 
+ 
+ 
+  .bl3 a {
+	text-decoration:none;
+	color:#0033CC;
+	font-size:10px;
+	font-weight:bold;
+ }
+ 
+ .bl3 a:hover {
+	text-decoration:underline;
+	color:#CC0000;
+	font-size:10px;
+	font-weight:bold;
+ } 
+ 
+ 
+ table.bl3 a:hover, table.bl3 a:active, table.bl3 a:focus { /* this changes the background and text color for both mouse and keyboard navigators */
+
+	background-repeat:no-repeat;
+	color: #CC0000;
+	display:block;
+}
+
+table.bl3 a { /*, table.hbar a:visited   grouping these selectors makes sure that your links retain their button look even after being visited */
+	padding: 5px 0px 5px 0px;
+	color:#0033CC;
+	display: block; /* this gives the link block properties causing it to fill the whole LI containing it. This causes the entire area to react to a mouse click. */
+	/*width: 200px;this width makes the entire button clickable for IE6. If you don't need to support IE6, it can be removed. Calculate the proper width by subtracting the padding on this link from the width of your sidebar container. */
+	text-decoration: none;
+	
+	
+	
+	background-repeat:no-repeat;
+}
+
+ 
+.marg {
+ margin-left:5px;
+ }
+ 
+ 
+ .vt_auteur
+{
+width:20%;
+background-color : rgb(244,238,250);
+}
+.vt_mess
+{
+width:75%;
+background-color : rgb(244,238,250);
+}
+
+ 
+ #banniere
+{
+width: 600px;
+height: 150px;
+background-position:  center;
+margin-bottom: 20px; 
+background-image: url('images/banniere.jpg');
+}
+
+#corps_forum
+{
+border: 1px solid black;
+width: 90%;
+margin-top: 50px;
+margin-left: 5%;
+margin-bottom: 10Opx;
+padding: 5px;
+background-color: rgb(237,224,213);
+
+}
+
+#footer
+{
+	border: 1px solid black;
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10Opx;
+	padding: 5px;
+	background-color: #CBE2EF;
+	
+}
+
+.vt_auteur
+{
+width:20%;
+background-color : rgb(244,238,250);
+}
+.vt_mess
+{
+width:75%;
+background-color : rgb(244,238,250);
+}
+
+.nomutili
+{
+	font-size:18px;
+	color:#FF0000;
+	font-weight:bold;
+}
+
+.txtconnexion{
+	font-size:12px;
+	color:#0033CC;
+	font-weight:bold;
+}
+
+.nommm
+{
+	font-size:30px;
+	color:#C71C03;
+	font-weight:bold;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+
+.bivenu{
+	font-size:18px;
+	color:#0099FF;
+	font-weight:bold;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	margin-left:10px;
+	background:url(../images/araccu.jpg)
+}
+
+a:hover {
+color:#FF0000;
+}
+
+.titre {
+	color:#0066CC;
+}
+
+.topicar {
+	background-color:#E8ECF7;
+}
+
+.titre2 {
+	color:#000000;
+	background-color:#FFCFB9;
+	background-image:url(../images/artf.jpg);
+	
+}
+
+.titre2 a {
+	color:#036A92;
+	background-color:#FFCFB9;
+	background-image:url(../images/artf.jpg);
+}
+
+.titretopic {
+	color:#FC6D86;
+}
+
+.titreblog {
+	color:#CC0000; 
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size:15px;
+	font-weight:bold;
+
+}
+
+.titreblogtime {
+	color:#FF3300;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	font-style:italic
+	
+}
+
+.titreblogmodisup {
+	color:#510000;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	font-style:italic
+}
+
+.titreblogtext {
+	color:#003366;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size:14px;	
+}
+
+.modifier {
+	color:#006600;
+}
+
+.tchatiframe { 
+   height:400;
+}
+
+.tchatPseudo {
+  color:#D10744;
+  font-size:14px;
+  font-weight:bold;
+  margin-left:5px;
+}
+
+.tchatTexte {
+	color:#000000;
+	font-size:14px;
+	margin-left:5px;
+}
+
+.ntchatTexte {
+	color:#0049E1;
+	font-size:14px;
+	margin-left:5px;
+	font:Geneva, Arial, Helvetica, sans-serif;
+	margin-left:5px;
+}
+
+.tchatTime {
+color:#FF0000;
+font-style:italic;  
+font-size:12px;
+margin-left:10px;
+}
+
+.tchatTime a {
+	color:#FF0000;
+	font-style:italic;
+	font-size:14px;
+	
+	
+}
+
+.recherchePseudom {
+	color:#0066CC;
+	font-size:16px;
+	font-weight:bold;
+}
+
+
+
+.recherchePseudof {
+	color:#FF00FF;
+	font-size:16px;
+	font-weight:bold;
+}
+
+.Pseudom {
+	color:#0066CC;
+	font-size:10px;
+	font-weight:bold;
+}
+
+
+
+.Pseudof {
+	color:#FF00FF;
+	font-size:10px;
+	font-weight:bold;
+}
+
+
+.recherchePseudomacc {
+	color:#0066CC;
+	
+	font-weight:bold;
+}
+
+
+
+.recherchePseudofacc {
+	color:#FF00FF;
+	
+	font-weight:bold;
+}
+
+
+.rechercheinvit {
+	color:#333333;
+	font-size:12px;
+	
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+
+.textotitre {
+	color:#FF0000;
+	font-size:14px;
+	font-weight:bold;
+	font-style:normal;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	background-image: url(../images/artxt.jpg);
+	background-repeat:no-repeat
+}
+.texto a {
+	color:#000000;
+	font-size:14px;
+	font-weight:bold;
+
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	text-decoration:none;
+}
+
+.textoajouter {
+	color:#FF6600;
+	font-size:14px;
+	font-family: Geneva, Arial, Helvetica, sans-serif;	
+}
+
+.arvatnom {
+	background-image: url(../images/aravatnom.jpg);
+	background-repeat:no-repeat
+}
+
+.artchat {
+	background-image: url(../images/ftb2.jpg);
+	background-repeat:repeat-y;
+}
+
+.artchat2 {
+	background-image: url(../images/ftb.jpg);
+	background-repeat:repeat-y;
+}
+
+.arntchat {
+	background:url(../images/arnt1.jpg);
+	background-repeat:repeat-y;
+}
+
+.arntchat2 {
+	background: url(../images/arnt2.jpg);
+    background-repeat:repeat-y;
+}
+
+
+.arntnt {
+	background-image: url(../images/artnt.jpg);
+	background-repeat:repeat-y;
+}
+
+
+.msgtitre  {
+	color:#336600;
+	font-size:14px;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	text-decoration:none;
+}
+
+.msgtitrelu  {
+	color:#FF0000;
+	font-size:14px;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+
+.formtitle  {
+	color:#FF0000;
+	font-size:14px;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	font-weight:bold;
+	font-style:italic;
+	
+	
+}
+
+.ins  {
+	color:#003399;
+	font-size:14px;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	font-weight:bold;
+	font-style:normal;
+}
+
+.prot  {
+	color:#003366;
+	font-size:14px;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	font-weight:bold;
+	font-style:italic;
+}
+
+.proenonce  {
+	color:#000000;
+	font-size:14px;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	text-decoration:none;
+}
+
+.proar {
+	background-image: url(../images/arpro.jpg);
+	background-repeat:repeat-y;
+
+}
+
+.signa {
+	color:#990000;
+	font-size:12px;
+}
+
+.nmsgentete {
+	font-size:9px;
+	
+	color:#FF0000
+	 }
+	 
+	 
+.armenuv {
+    background:url(../images/bttmenuv1.jpg);
+	text-align:justify;
+	 }
+
+.tableprincipale {
+	
+	background-color: #FFFFFF; 
+ 
+}
+
+.menuzero a {
+	
+	font-style: normal;
+	color:#0000CC;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	text-decoration:none;
+}
+
+.menuzero a:hover {
+	
+	font-style: normal;
+	color:#990000;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+
+.gtmv
+{
+	font-size:18px;
+	color:#FFFFFF;
+	font-weight:bold;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+
+.tmmv a {
+	font-size:14px;
+	color:#0099CC;
+	font-weight:bold;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	}
+
+.tmmv a:hover {
+	font-size:14px;
+	color:#FF0000;
+	font-weight:bold;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+
+.bcomments {
+	font-size:14px;
+	color:#006666;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+
+.supm{
+	font-size:14px;
+	color:#0066CC;
+	font-family:Arial, Helvetica, sans-serif;
+	background:url(../images/arsupmarche.jpg);
+	background-repeat:repeat-y
+}
+
+.expo{
+	font-size:14px;
+	color:#00458A;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.bodi{
+	background-color:#66AEDD;
+	background-image:url(../images/arweb.jpg);
+	background-repeat:repeat-x;
+	
+}
+
+.bodi2{
+	background-color:#FFFFFF;	
+	
+}
+
+.liensup {
+	background-image:url(../images/arliensuper.jpg);
+	background-repeat:no-repeat;
+	color:#FF0000;
+	font-size:14px;
+	width:200px;
+	height:26px;
+	text-align:center;
+	
+	
+}
+
+.liensup a {
+	color:#FFFFFF;
+	text-align:justify;
+	font-weight:bold;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+
+.liensup a:hover{
+	color:#DA3229;
+	text-align:justify;
+	font-weight:bold;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+
+.topicacc {
+	color:#CCCCCC;
+	font-weight:bold;
+	
+}
